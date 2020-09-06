@@ -1,6 +1,17 @@
+body{
+    margin:1%;
+    top: 0;
+    left: 0;
+    padding: 0%;
+}
+
 header{
     background: url(http://intro-webdesign.com/CSS/assignment-2/images/flywheel.jpg);
     text-align: center;
+    box-sizing: border-box;
+	text-decoration-style: none;
+    background-color: #cccccc;
+    image-rendering: auto;
 }
 
 nav a{
@@ -41,12 +52,12 @@ h2{
 aside a{
     padding: 25px 25px 25px 25px;
     display: inline-block;
-    border-style: solid 2px;
+    border-style: 2px solid;
 }
 img{
     width: auto;
     height: auto;
     max-width: 150px;
     max-height: 150px;
-
+    border-style: 2px solid;
 }
