@@ -67,6 +67,10 @@ table{
     margin: auto;
     font-family: 'Times New Roman', Times, serif;
     font-size: 16px;
+    text-align: center;
+}
+
+tr th:first-child, tr td:first-child {
     text-align: left;
 }
 
@@ -75,10 +79,12 @@ thead{
 }
 th, td{
     padding: 10px;
+    opacity: 0.8;
 }
 
-table tr:hover{
+tr td:hover {
     opacity: 1;
+    text-align: center;
     background-color: lightgreen;
 }
 
