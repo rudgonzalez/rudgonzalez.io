@@ -61,3 +61,34 @@ img{
     max-height: 150px;
     border-style: 2px solid;
 }
+
+table{
+    border: 1px white;
+    margin: auto;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 16px;
+    text-align: left;
+}
+
+thead{
+    border-bottom: #a9cf51;
+}
+th, td{
+    padding: 10px;
+}
+
+table tr:hover{
+    opacity: 1;
+    background-color: lightgreen;
+}
+
+th{
+    background-color: #92a555;
+    color: white;
+    border-radius: 3px 3px 0 0;
+}
+
+td{
+    background-color: #e4f5d4;
+    color: #8f908e;
+}
